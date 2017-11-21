@@ -1,7 +1,7 @@
 
          html, body {
          height: 100%;
-         overflow-x: hidden;       
+         transform: scale(1);
         }
 
         .mobile-header, .mobile_menu, .mobile-jumbotron {
@@ -54,28 +54,41 @@
             position: relative;
             z-index: 0;
             margin-bottom: 3em;
+            width: 100%;
+            
         }
 
         .header {
             margin-top: 2em;
-            font-family: 'Montserrat', sans-serif;            
+            font-family: 'Montserrat', sans-serif;  
+            width: 100%;
+            
+            
         }
 
-        .header > img {
+        .fixed {
+            position: fixed;
+            background: blue;
+            top:0; 
+            left:0;
+            width: 100%;
+        }
+
+        .header > #nav-bar > img {
            float: left; 
            margin-left: 2.5em;      
         }
 
-        .header > nav > ul {
+        .header > #nav-bar > nav > ul {
            list-style-type: none;
            margin-right: 2.5em;
         }
 
-        .header > nav > ul > li {
+        .header > #nav-bar > nav > ul > li {
            float: right;
         }
 
-        .header > nav > ul > li > a {
+        .header > #nav-bar > nav > ul > li > a {
            padding: 0em 1.5em;
            color: white;
         }

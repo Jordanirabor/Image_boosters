@@ -15,3 +15,13 @@ const icons = document.getElementsByClassName("image")
     setTimeout(function(){
         icons[3].classList.add('tada');    
     }, 6000)
+
+
+    
+    $(window).scroll(function(){
+        var navbar = $('#nav-bar'),
+            scroll = $(window).scrollTop();
+      
+        if (scroll >= 1) navbar.addClass('fixed');
+        else navbar.removeClass('fixed');
+      });
