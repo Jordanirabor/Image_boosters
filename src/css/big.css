@@ -1,7 +1,15 @@
+        .container-fluid {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+          }
 
-         html, body {
+        
+        html, body {
          height: 100%;
-         transform: scale(1);
+         font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+         font-weight: 300;
         }
 
         .mobile-header, .mobile_menu, .mobile-jumbotron {
@@ -21,18 +29,18 @@
             100%  { filter: grayscale(0%);  }
         }
 
-    @keyframes appear {
+        @keyframes appear {
 
             10% {opacity: 0.1; top : 3%;}
             20% {opacity: 0.2; top : 6%;}
             30% {opacity: 0.3; top : 9%;}
             40% {opacity: 0.4; top : 12%;}
-            50% {opacity: 0.5; top : 15%;}
-            60% {opacity: 0.6; top : 18%;}
-            70% {opacity: 0.7; top : 21%;}
-            80% {opacity: 0.8; top : 24%;}
-            90% {opacity: 0.9; top : 27%;}
-            100% {opacity: 1;  top : 30%;}
+            50% {opacity: 0.5; top : 16%;}
+            60% {opacity: 0.6; top : 19%;}
+            70% {opacity: 0.7; top : 23%;}
+            80% {opacity: 0.8; top : 27%;}
+            90% {opacity: 0.9; top : 30%;}
+            100% {opacity: 1;  top : 33%;}
         }
     
         
@@ -46,59 +54,75 @@
         }
         
         .jumbotron {
-            height: 80%;
+            height: 100%;
             padding: 0.5em 3em;
             background: url(../img/Jumbotron_image.jpg) no-repeat; 
             background-position:center;
             background-size: cover;
             position: relative;
-            z-index: 0;
+            z-index: 5;
             margin-bottom: 3em;
-            width: 100%;
-            
+            font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
         }
 
         .header {
             margin-top: 2em;
-            font-family: 'Montserrat', sans-serif;  
-            width: 100%;
-            
-            
+            font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
         }
 
-        .fixed {
-            position: fixed;
-            background: blue;
-            top:0; 
-            left:0;
-            width: 100%;
-        }
-
-        .header > #nav-bar > img {
+        .header > #bar > img {
            float: left; 
            margin-left: 2.5em;      
         }
 
-        .header > #nav-bar > nav > ul {
+        .header > #bar > nav > ul {
            list-style-type: none;
            margin-right: 2.5em;
         }
 
-        .header > #nav-bar > nav > ul > li {
+        .header > #bar > nav > ul > li {
            float: right;
         }
 
-        .header > #nav-bar > nav > ul > li > a {
-           padding: 0em 1.5em;
+        .header > #bar > nav > ul > li > a {
+           padding: 0.5em 1.5em;
            color: white;
+           font-size: 0.85em;
+        }
+
+
+        .bar{
+            background: transparent;  
+            padding: 1.2em 0em 1.5em 0;  
+            position: fixed;
+            width: 100%;  
+            z-index: 10;
+            top: 0px;
+            left: 0px;
+            clear: both; 
+            transition: background 0.6s, border-bottom 0.6s ease-in-out;
+        }
+
+        .car{
+            background: white;
+            padding: 1.2em 0em 1.5em 0;    
+            position: fixed;
+            width: 100%;  
+            border-bottom: 1px solid #A5A5A5;              
+            z-index: 10;            
+            top: 0px;
+            left: 0px;   
+            clear: both;             
+            transition: background 0.6s, border-bottom 0.6s ease-in-out;
         }
 
         .header > #overlay_text {
-            width: 25em;
+            font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+            width: 100%;
+            margin: 0 auto;
             color: white;
             position: absolute;
-            top : 0%;
-            left: 5em;
+            text-align: center;
             opacity: 0.0;
             animation-name: appear;
             animation-duration: 1.2s;
@@ -106,14 +130,12 @@
          }
         
          .header > #overlay_text > h2 {
-            font-size: 3em;
-            font-weight: bold;
-            font-family: 'Montserrat', sans-serif;            
+            font-size: 4.5em;
+            font-weight: bold;          
          }
 
          .header > #overlay_text > h4 {
-            font-size: 1.2em;   
-            font-family: 'Montserrat', sans-serif;            
+            font-size: 2em;              
          }
 
         #overlay {
@@ -121,24 +143,30 @@
             background: rgba(181, 30, 63,.3);            
             top : 0px;
             left: 0px;
-            z-index: 1;
+            z-index: 10;
             width: 100%;
             height: 100%;
         }
 
         #services {
-            padding: 3.5em 0;
-            margin-bottom: 1.5em;
-            font-family: 'Montserrat', sans-serif;            
+            font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+            padding: 3.5em 1.5em;
+            margin-bottom: 1.5em;           
         }
         
-        #latest-projects, #clients {
-            padding-bottom: 3.5em;
-            font-family: 'Montserrat', sans-serif;            
+        #latest-projects{
+            font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+            padding: 0 1.5em 3.5em 1.5em;           
        }
+
+       #clients {
+        font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        padding: 0 4em 3.5em 4em;            
+   }
 
        .heading {
            padding: 0.5em 0;
+           font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
            font-weight: bold;
        }
 
@@ -150,20 +178,24 @@
        .project-heading {
            color: #A5A5A5;
            font-weight: bold;        
-           font-size: 1.5em;
+           font-size: 1.25em;
+           font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
        }
 
        .client-heading {
         color: #6F6F6F;
-        font-size: 1.5em;
-        font-weight: bold;        
+        font-size: 1.25em;
+        font-weight: bold;   
+        padding-bottom: 3em;   
+        font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;    
        } 
        
        .brand-heading {
         color: #B51E3F;
-        font-size: 1.5em;
+        font-size: 1.25em;
         font-weight: bolder;
         padding: 0.5em 0 0.5em 0;
+        font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
        } 
 
        .first_board:nth-child(even) {
@@ -186,49 +218,17 @@
             background: #A5A5A5;
        }
 
-       .logo-div_1 {
-        padding: 2.5em;
-        background: url(../img/logo/logo.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat; 
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);  
-        cursor:pointer;
-       }
-
-       .logo-div_2 {
-        padding: 2.5em;
-        background: url(../img/logo/google.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat; 
-        -webkit-filter: grayscale(100%);
+       #clients > .row > .logo > img{
+        cursor: pointer;
         filter: grayscale(100%);
-        cursor:pointer;      
-       }
-
-       .logo-div_3 {
-        padding: 2.5em;
-        background: url(../img/logo/mtn.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat; 
-        filter: grayscale(100%); 
-        cursor:pointer; 
-       }
-
-      .logo-div_4 {
-        padding: 2.5em;
-        background: url(../img/logo/Konga_Logo.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%); 
-        cursor:pointer;  
+        display: block;
+        margin: 0 auto;
        }
 
        .search-div {
         background-color: #EBEBEB;
         padding: 3em;
-        font-family: 'Montserrat', sans-serif;        
+        font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
       }
 
     .mail-form {
@@ -250,7 +250,7 @@
         height: 12em;
         background: #B51E3F;
         position: relative;
-        font-family: 'Montserrat', sans-serif;        
+       
       }
 
        .footer-nav {
@@ -258,6 +258,7 @@
         position: absolute;
         top : 25%;
         left: 0;
+        font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
         }
 
         .footer-nav > #pro {
@@ -273,6 +274,7 @@
          #pro > p {
             color: white;
             margin-bottom: 0px;
+           font-size: 0.85em;           
          }
 
         .footer-nav > #qro > nav > ul {
@@ -291,10 +293,11 @@
         .footer-nav > #qro > nav > ul > li > a {
            padding: 0em 1.5em;
            color: white;
+           font-size: 0.85em;           
         }
         .footer-nav > #qro > .icons {
             float: right;
-            padding: 0.5em 4em;
+            padding: 2.5em 4em 0 4em;
         }
 
         .fa-2x {

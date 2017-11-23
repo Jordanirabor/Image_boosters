@@ -5,6 +5,8 @@
 
 html, body {
     height: 100%;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
    }
    
    
@@ -73,7 +75,7 @@ html, body {
   .mobile-header{
     background: #B51E3F;
     padding: 1.5em;
-    font-family: 'Montserrat', sans-serif;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
   }
 
  .mobile-header > span {
@@ -89,7 +91,7 @@ html, body {
     font-size: 1em; 
     width: 100%; 
     background: #B51E3F; 
-    font-family: 'Montserrat', sans-serif;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
   }
 
 .mobile_menu ul {
@@ -147,7 +149,7 @@ html, body {
 }
 
 .mobile-jumbotron {
-    height: 80%;
+    height: 50%;
     padding: 0.5em 0.5em;
     background: url(../img/Jumbotron_image.jpg) no-repeat; 
     background-position:center;
@@ -161,15 +163,15 @@ html, body {
 
 .header {
     margin-top: 2em;
-    font-family: 'Montserrat', sans-serif;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 .header > #overlay_text {
-    width: 15em;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     position: absolute;
-    top : 0%;
-    left: 1em;
+    text-align: center;
     opacity: 0.0;
     animation-name: appear;
     animation-duration: 1.2s;
@@ -177,7 +179,7 @@ html, body {
  }
 
  .header > #overlay_text > h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     overflow-x: hidden;
     overflow-y: hidden;
  }
@@ -201,8 +203,8 @@ html, body {
 }
 
 #services {
-    font-family: 'Montserrat', sans-serif;
-    padding: 1em 0;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    padding: 1em 0em 3.5em 0;
     overflow-x: hidden;    
 }
 
@@ -211,9 +213,13 @@ html, body {
     margin: 1.5em 0em 1.5em 0em;    
 }
 
-#latest-projects, #clients {
-    padding-bottom: 2.5em;
-    font-family: 'Montserrat', sans-serif;
+#latest-projects{
+    padding: 0 2.5em 2.5em 2.5em;
+} 
+
+#clients {
+    padding: 0 4em 3em 4em;           
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 .heading {
@@ -229,7 +235,7 @@ html, body {
 .project-heading {
    color: #A5A5A5;
    font-weight: bold;        
-   font-size: 1.5em;
+   font-size: 1em;
 }
 
 .image {
@@ -238,13 +244,13 @@ html, body {
 
 .client-heading {
 color: #6F6F6F;
-font-size: 1.5em;
+font-size: 1em;
 font-weight: bold;        
 } 
 
 .brand-heading {
 color: #B51E3F;
-font-size: 1.5em;
+font-size: 1em;
 font-weight: bolder;
 padding: 0.5em 0 0.5em 0;
 } 
@@ -270,56 +276,19 @@ padding: 0.5em 0 0.5em 0;
 }
 
 
-.logo-div_1 {
-padding: 2.5em;
-margin: 0 60px 0 60px;    
-background: url(../img/logo/logo.png);
-background-size: 100% 100%;
-background-repeat: no-repeat; 
--webkit-filter: grayscale(100%);
-filter: grayscale(100%);  
-cursor:pointer;
-}
-
-.logo-div_2 {
-padding: 2.5em;
-margin: 0 60px 0 60px;    
-background: url(../img/logo/google.png);
-background-size: 100% 100%;
-background-repeat: no-repeat; 
--webkit-filter: grayscale(100%);
-filter: grayscale(100%);
-cursor:pointer;      
-}
-
-.logo-div_3 {
-padding: 2.5em;
-margin: 0 60px 0 60px;    
-background: url(../img/logo/mtn.jpg);
-background-size: 100% 100%;
-background-repeat: no-repeat; 
--webkit-filter: grayscale(100%);
-filter: grayscale(100%); 
-cursor:pointer; 
-}
-
-.logo-div_4 {
-padding: 2.5em;
-margin: 0 60px 0 60px;
-background: url(../img/logo/Konga_Logo.jpg);
-background-size: 100% 100%;
-background-repeat: no-repeat;
--webkit-filter: grayscale(100%);
-filter: grayscale(100%); 
-cursor:pointer;  
-}
+#clients > .row > .logo > img{
+    cursor: pointer;
+    filter: grayscale(100%);
+    display: block;
+    margin: 0 auto;
+   }
 
 .logo{
     padding: 1.5em;
 }
 
 .search-div {
-font-family: 'Montserrat', sans-serif;
+font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
 background-color: #EBEBEB;
 padding: 3em;
 }
@@ -340,7 +309,7 @@ margin-right: 2em;
 }
 
 .footer {
-font-family: 'Montserrat', sans-serif;
+font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
 height: 12em;
 background: #B51E3F;
 position: relative;
@@ -353,6 +322,7 @@ width: 100%;
 position: absolute;
 top : 25%;
 left: 0;
+font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 .footer-nav > #pro {
@@ -369,6 +339,7 @@ left: 0;
  #pro > p {
     color: white;
     margin-bottom: 0px;
+    font-size: 0.85em;                      
  }
 
 .footer-nav > #qro > nav > ul {
@@ -390,6 +361,7 @@ left: 0;
    padding: 0em 1.5em;
    color: white;
    display: none;
+   font-size: 0.85em;                     
 }
 .footer-nav > #qro > .icons {
     position: absolute;
