@@ -115,7 +115,7 @@ html, body {
 .mobile_menu ul li a {
      text-decoration:none;
      margin: 0px;
-     color:#fff;
+     color:#E0E0E0;
   }
 
 .mobile_menu ul li a:hover {
@@ -125,7 +125,7 @@ html, body {
       
 .mobile_menu a{
     text-decoration:none;
-    color:#fff;    
+    color:#E0E0E0;    
   }
 
 .mobile_menu a:hover{
@@ -310,7 +310,7 @@ float: none;
 
 .mail-button {
 background: #B51E3F;
-color: white;
+color:#E0E0E0;
 cursor:pointer;
 }
 
@@ -347,7 +347,7 @@ font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", H
  }
 
  #pro > p {
-    color: white;
+    color: #E0E0E0;
     margin-bottom: 0px;
     font-size: 0.85em;                      
  }
@@ -369,7 +369,7 @@ font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", H
 
 .footer-nav > #qro > nav > ul > li > a {
    padding: 0em 1.5em;
-   color: white;
+   color: #E0E0E0;
    display: none;
    font-size: 0.85em;                     
 }

@@ -116,7 +116,7 @@ html, body {
 .mobile_menu ul li a {
      text-decoration:none;
      margin: 0px;
-     color:#fff;
+     color: #E0E0E0;
      font-size: 0.85em;
   }
 
@@ -128,7 +128,7 @@ html, body {
       
 .mobile_menu a{
     text-decoration:none;
-    color:#fff;    
+    color:#E0E0E0;    
     font-size: 0.85em;
   }
 
@@ -304,7 +304,7 @@ float: none;
 
 .mail-button {
 background: #B51E3F;
-color: white;
+color: #E0E0E0;
 cursor:pointer;
 }
 
@@ -337,7 +337,7 @@ left: 0;
  }
 
  #pro > p {
-    color: white;
+    color: #E0E0E0;
     margin-bottom: 0px;
     font-size: 0.85em;
  }
@@ -359,7 +359,7 @@ left: 0;
 
 .footer-nav > #qro > nav > ul > li > a {
    padding: 0em 1.5em;
-   color: white;
+   color: #E0E0E0;
    display: none;
    font-size: 0.85em;
 }

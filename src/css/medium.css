@@ -114,7 +114,7 @@
 
     .header > #bar > nav > ul > li > a {
        padding: 0em 0.7em;
-       color: white;
+       color: #E0E0E0;
        font-size: 0.85em;
     }
 
@@ -242,7 +242,7 @@
 
 .mail-button {
     background: #B51E3F;
-    color: white;
+    color: #E0E0E0;
     cursor:pointer;
   }
 
@@ -275,7 +275,7 @@
      }
 
      #pro > p {
-        color: white;
+        color : #E0E0E0;
         margin-bottom: 0px;
         font-size: 0.85em;                   
      }
@@ -295,7 +295,7 @@
 
     .footer-nav > #qro > nav > ul > li > a {
        padding: 0em 0.7em;
-       color: white;
+       color : #E0E0E0;
        font-size: 0.85em;                  
     }
     .footer-nav > #qro > .icons {
