@@ -32,24 +32,3 @@ hamburger.addEventListener('click', function(event){
 })
 
 
-window.addEventListener('scroll', function(e){
-    if(event.target.classList.contains("fa-bars")){
-        
-                event.target.classList.remove("fa-bars") ;
-                
-                event.target.classList.add("fa-times") ;   
-        
-                mobile_menu.setAttribute("style","animation-name:come; animation-duration:0.5s; animation-fill-mode:forwards;");     
-        
-            } else {
-        
-                event.target.classList.remove("fa-times");
-        
-                event.target.classList.add("fa-bars");  
-        
-                mobile_menu.setAttribute("style","animation-name:go; animation-duration:0.5s; animation-fill-mode:forwards;");     
-                
-                
-        
-            }
-})
