@@ -18,7 +18,7 @@
     }, 3500)
 
     setTimeout(function(){
-        icons[3].classList.add('tada');    
+        icons[3].classList.add('bounce');    
     }, 4500) } 
 
      });

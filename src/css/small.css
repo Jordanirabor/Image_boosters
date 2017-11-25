@@ -5,7 +5,6 @@
 
 html, body {
     height: 100%;
-    overflow-x: hidden;
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
    }
@@ -73,9 +72,13 @@ html, body {
             100% {opacity: 1;  top : 50%;}
         }
 
+        #big-logo {
+            display : none;
+        }
+
   .mobile-header{
     background: #B51E3F;
-    padding: 1.5em;
+    padding: 2em 3.5em;
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-size: 0.85em; 
   }
@@ -121,7 +124,7 @@ html, body {
   }
 
 .mobile_menu ul li a:hover {
-      color: #666;
+      color: #E0E0E0;
        text-decoration:none;
        font-size: 0.85em;
       }
@@ -151,7 +154,7 @@ html, body {
 }
 
 .mobile-jumbotron {
-    height: 60%;
+    height: 65%;
     padding: 0.5em 3em;
     background: url(../img/Jumbotron_image.jpg) no-repeat; 
     background-position:center;
@@ -192,14 +195,16 @@ html, body {
  }
 
  .header > #overlay_text > h2 {
-    font-size: 2em;
+    font-size: 2.8em;
+    opacity: 0.7;
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
  }
 
  .header > #overlay_text > h4 {
-    font-size: 1em;    
+    font-size: 1.2em;    
     font-weight: bold;        
-    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    opacity: 0.7;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
  }
 
 #overlay {
