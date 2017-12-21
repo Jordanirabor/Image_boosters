@@ -156,13 +156,13 @@
     #services {
         font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
         max-width: 80%;                   
-        margin: 10% auto;           
+        margin: 5% auto;           
     }
     
     #latest-projects{
         font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
         max-width: 80%; 
-        margin: 10% auto;                      
+        margin: 5% auto;                      
    }
 
    #clients {

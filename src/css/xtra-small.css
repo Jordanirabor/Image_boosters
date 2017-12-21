@@ -199,17 +199,16 @@ html, body {
 }
 
  .header > #overlay_text > h2 {
-    font-size: 2.5em;
+    font-size: 3em;
+    font-weight: bold;  
     overflow-x: hidden;
-    opacity: 0.7;
     overflow-y: hidden;
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
  }
 
  .header > #overlay_text > h4 {
-    font-size: 1.1em;     
+    font-size: 1.3em;     
     font-weight: bold;    
-    opacity: 0.7;
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
  }
 
@@ -294,7 +293,7 @@ padding: 0.5em 0 0.5em 0;
 
 
 .logo {
-    width: 100%;
+    width: 90%;
     padding: 5% 0%;
     height: 100px;
     margin: 5% auto;
