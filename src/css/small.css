@@ -224,7 +224,7 @@ html, body {
 }
 
 #services {
-    max-width: 70%;
+    max-width: 80%;
     margin: 5% auto; 
 }
 
@@ -234,11 +234,11 @@ html, body {
 }
 
 #latest-projects{
- max-width: 70%;
+ max-width: 80%;
 }
 
 #clients {
-    max-width: 70%;
+    max-width: 80%;
     margin: 5% auto;
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
