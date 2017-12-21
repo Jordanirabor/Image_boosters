@@ -1,0 +1,50 @@
+.casestudies-heading {
+    color: #6F6F6F;        
+    font-size: 1.5em;
+    margin: 7% 0% 5% 0%;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.case-studies {
+margin: 0 auto !important;
+max-width: 80% !important;
+}
+
+.casestudies-subheading {
+    color: #828080;       
+    font-size: 1.5em;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    margin: 0% 0% 5% 0%;
+}
+
+.article {
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;   
+    font-size: 1rem;
+    color: #828080;
+}
+
+.holder {
+    margin: 3% 0% 3% 0%;
+}
+
+.article:nth-child(odd) {
+    line-height: 1rem;
+    font-style: italic;
+}
+
+.article:nth-child(even) {
+padding: 1rem 1rem 0rem 0.2rem;
+margin: 0;
+ }
+
+.search-div {
+    margin: 10% 0% 0% 0%;
+}
+
+div > img {
+    transition: all .5s ease-in-out;  
+}
+
+div > img:hover {
+    transform: scale(1.1); 
+}

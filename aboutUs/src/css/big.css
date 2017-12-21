@@ -1,0 +1,87 @@
+.people-heading {
+    color: #6F6F6F;      
+    font-size: 3em;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.about-the-people {
+    max-width: 80%;
+    text-align: justify;
+}
+
+.about-the-people-text {
+color: #6F6F6F;
+font-size: 1.3rem;
+font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+line-height: 1.5rem;
+}
+
+.people-subheading {
+    color: #B51E3F;       
+    font-size: 1.5em;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    margin: 0% 0% 5% 0%;
+}
+
+br {
+    display: block;
+    margin: 5px 0;
+ }
+
+#people {
+    margin: 7% auto !important;
+    max-width: 70%; 
+}
+
+#our-team {
+    margin: 0 auto !important;
+    max-width: 70%; 
+}
+
+div > .card {
+    border-radius: 10%;
+    box-shadow: 2px 5px 2px 0px #bababa;
+}
+
+.card > div {
+    border-radius: 10% 10% 0 0; 
+}
+
+.card > div > img {
+    transition: all .5s ease-in-out;    
+} 
+
+.card > div > img:hover {
+    transform: scale(1.1);
+} 
+
+.row > .profile-holder  {
+    margin: 0em 0em 3.5em 0em;
+}
+
+.fourth {
+    margin: 0% 0% 0% 15%  !important;
+}
+
+.card-block > p {
+    margin: 0;
+    color: #6F6F6F;
+}
+
+.card-block > p:nth-child(odd) {
+font-size: 1em;
+
+}
+
+.card-block > p:nth-child(even) {
+    font-style: italic;
+    font-size: 0.8em;
+    }
+
+.card-block > img {
+    float: right;
+}
+
+.footer {
+    margin-top: 10%;
+}

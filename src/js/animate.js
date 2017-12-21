@@ -6,15 +6,15 @@
     if (scroll >= 100) {
 
     setTimeout(function(){
-        icons[0].classList.add('wobble');    
+        icons[0].classList.add('bounce');    
     }, 1000)
 
     setTimeout(function(){
-        icons[1].classList.add('swing');    
+        icons[1].classList.add('bounce');    
     }, 2500)
 
     setTimeout(function(){
-        icons[2].classList.add('jello');    
+        icons[2].classList.add('bounce');    
     }, 3500)
 
     setTimeout(function(){
@@ -59,7 +59,6 @@
 
         bar.removeClass('car') 
         bar.addClass('bar')
-
         $('#main_logos').css('display', 'none');
         $('#main_logo').css('display', 'block');
         $('.header > #bar > nav > ul > li > a').css('color', 'white');        

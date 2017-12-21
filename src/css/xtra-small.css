@@ -193,6 +193,11 @@ html, body {
     animation-fill-mode: forwards;
  }
 
+ form {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
  .header > #overlay_text > h2 {
     font-size: 2.5em;
     overflow-x: hidden;
@@ -223,21 +228,23 @@ html, body {
 
 #services {
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    padding: 1em 1.5em;
+    max-width: 70%;
+    margin: 5% auto;
     overflow-x: hidden;    
 }
 
 .text-justify {
-    padding: 0px 40px;
     margin: 1.5em 0em 1.5em 0em;    
 }
 
 #latest-projects{
-    padding: 0 2.5em 2.5em 2.5em;
+    margin: 5% auto;
+    max-width: 70%;
 } 
 
 #clients {
-    padding: 0 4em 3em 4em;           
+    margin: 5% auto;
+    max-width: 70%;          
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -252,7 +259,7 @@ html, body {
 }
 
 .project-heading {
-   color: #A5A5A5;
+   color: #6F6F6F;
    font-weight: bold;        
    font-size: 1em;
 }
@@ -274,36 +281,30 @@ font-weight: bolder;
 padding: 0.5em 0 0.5em 0;
 } 
 
-.first_board:nth-child(even) {
-    height :15em;
-    background: #A5A5A5;
-}
-
-.first_board:nth-child(odd) {
-    height :15em;
-    background: #C0BEBF
-}
-
-.second_board:nth-child(even) {
-    height :15em;
-    background: #C0BEBF;
-}
-
-.second_board:nth-child(odd) {
-    height :15em;
-    background: #A5A5A5;
-}
-
-
-#clients > .row > .logo > img{
-    cursor: pointer;
-    filter: grayscale(100%);
-    display: block;
-    margin: 0 auto;
+.board {
+    width: 100%;
+    height: 200px;
+    margin: 5% auto;
    }
 
-.logo{
-    padding: 1.5em;
+   .board > img {
+       width: inherit;
+       height: inherit;
+   }
+
+
+.logo {
+    width: 100%;
+    padding: 5% 0%;
+    height: 100px;
+    margin: 5% auto;
+}
+
+.logo > img {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+    filter: grayscale(100%);
 }
 
 .search-div {
@@ -355,7 +356,7 @@ font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", H
     padding: 0 0 0.6em 0;
  }
 
- #pro > p {
+ #pro > p, small{
     color: #E0E0E0;
     margin-bottom: 0px;
     font-size: 0.85em;                      
