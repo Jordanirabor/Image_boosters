@@ -105,6 +105,52 @@ html, body {
    list-style-image: none;
   }
 
+  .row > .image > .digital {
+    width: 100%;
+    height: 150px;
+}
+
+.row > .image > .digital > img {
+    width: inherit;
+    height: inherit;
+}
+
+.row > .image > .design {
+    width: 100%; 
+    height: 150px;
+    padding-top: 40px;
+}
+
+.row > .image > .design > img {
+    width: 100%; 
+    height: 110px;
+}
+
+.row > .image > .public {
+    width: 100%;
+    height: 150px;
+    padding-top: 40px;
+}
+
+.row > .image > .public > img {
+    width: 70%;
+    height: 110px; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.row > .image > .strategy {
+    width: 100%;
+    height: 150px; 
+    padding-top: 40px;
+}
+
+.row > .image > .strategy > img {
+    width: 70%; 
+    height: 110px;
+}
+
+
 .mobile_menu li {
     display: block;
     padding: 0.3em 0 0.3em 0;

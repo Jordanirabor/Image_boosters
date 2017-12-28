@@ -1,7 +1,21 @@
 .casestudies-heading {
     color: #6F6F6F;        
-    font-size: 2em;
+    font-size: 1.5em;
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.casestudies-body {
+    color: #6F6F6F;        
+    font-size: 1em;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.brila-heading {
+    color: #B71D3F;        
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5em;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;  
 }
 
 .case-studies {
@@ -16,19 +30,62 @@ max-width: 80% !important;
     margin: 0% 0% 5% 0%;
 }
 
-div > p {
+div > a {
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;   
     font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+div > a > p {
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;   
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+div > a > p:hover {
+    text-decoration: none;
+    color: black;
+}
+
+div > a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .search-div {
     margin: 10% 0% 0% 0%;
 }
 
-div > img {
+.case-studies-row > div > a > div > img {
     transition: all .5s ease-in-out;  
 }
 
-div > img:hover {
+.case-studies-row > div > a > div > img:hover {
     transform: scale(1.1); 
+}
+
+.brila-row > div > div > img {
+    padding-bottom: 4em;
+}
+
+.kidiv {
+    height:  inherit; 
+    width: inherit;
+}
+
+.dapperdiv {
+    height:  inherit;  
+    width: inherit;
+}
+
+.eldersondiv {
+    height: inherit;
+    width: inherit;
+}
+
+.briladiv {
+    height: inherit; 
+    width: inherit
 }
