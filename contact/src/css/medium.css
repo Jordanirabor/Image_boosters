@@ -1,0 +1,69 @@
+.contact-heading {
+    color: #6F6F6F;      
+    font-size: 1.5em;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.contact {
+    text-align: justify;
+    margin-top: 8em !important;
+}
+
+.contact-form {
+color: #6F6F6F;
+font-size: 1.3rem;
+font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+line-height: 1.5rem;
+max-width: 80% !important;
+margin-bottom: 8em !important;
+}
+
+.contact-subheading {
+    color: #B51E3F;       
+    font-size: 1em;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    margin: 0% 0% 5% 0%;
+}
+
+.contact-row {
+    max-width: 75% !important;
+}
+
+input[type="text"], input[type="number"],.input {
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #4C4C4C;
+    width: 80%;
+}
+
+textarea {
+    background: #EDEDED;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+form {
+    margin: 0;
+    max-width: 100%;
+    margin-bottom: 3em !important;
+}
+
+.diz {
+    border-radius: 0px;
+    width: 8em;
+    padding: 3em 0em;
+}
+
+
+.about-the-people-text {
+    color: #6F6F6F;
+    font-size: 1.1rem;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    line-height: 0.5rem;
+    }
+
+.address {
+padding : 0px;
+margin : 0px; 
+}
