@@ -105,47 +105,55 @@ html, body {
    list-style-image: none;
   }
 
-  .row > .image > .digital {
+  .row > .image > a > .digital {
     width: 100%;
     height: 150px;
 }
 
-.row > .image > .digital > img {
+.row > .image > a:hover {
+    text-decoration: none;
+}
+
+.row > .image > a {
+    color: #292b2c;
+}
+
+.row > .image > a >  .digital > img {
     width: inherit;
     height: inherit;
 }
 
-.row > .image > .design {
+.row > .image > a > .design {
     width: 100%; 
     height: 150px;
     padding-top: 40px;
 }
 
-.row > .image > .design > img {
+.row > .image > a > .design > img {
     width: 100%; 
     height: 110px;
 }
 
-.row > .image > .public {
+.row > .image > a > .public {
     width: 100%;
     height: 150px;
     padding-top: 40px;
 }
 
-.row > .image > .public > img {
+.row > .image > a > .public > img {
     width: 70%;
     height: 110px; 
     display: block; 
     margin: 0 auto;
 }
 
-.row > .image > .strategy {
+.row > .image > a > .strategy {
     width: 100%;
     height: 150px; 
     padding-top: 40px;
 }
 
-.row > .image > .strategy > img {
+.row > .image > a > .strategy > img {
     width: 70%; 
     height: 110px;
 }

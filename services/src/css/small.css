@@ -1,0 +1,146 @@
+.holdp-reverse > p,.holdp > p, .holdop > p{
+    color: #6F6F6F;
+    font-size: 1.2rem;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    line-height: 1.2rem;
+} 
+ .digital-head {
+    color: #B71D3F;        
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 2.5em;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;  
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.holdimg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.holdimg > img {
+    width: 100%;
+    height: inherit;
+}
+
+.holdop {
+    margin-bottom: 2em;    
+}
+
+.holdp {
+    width: 100%;
+}
+
+.smaller-heading {
+    font-weight: bold;
+}
+
+.flex-container-reverse {
+    display: flex;
+    margin-bottom: 3em;
+    flex-direction: column;
+}
+
+.holdp-reverse {
+    width: 100%;
+}
+
+.holdimg-reverse {
+    width: 100%;
+    height: 100%;
+    margin-right: 0 auto;
+}
+
+.holdimg-reverse > img {
+    width: 100%;
+    height: inherit;
+}
+
+.popup-holder {
+    background: #EBEBEB;
+    width: 100%;
+    height: 13em;
+    margin-bottom: 5em;
+}
+
+.pink {
+width: 30%;
+float:left;
+height: inherit;
+background: #B71D3F;
+position: relative;
+}
+
+.grey {
+    width: 70%;
+    float: right;
+    height: inherit;
+    padding: 2.5em 0em;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 15px;
+    background: #6F6F6F;
+    width: 25%;
+}
+
+.grey-text {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.pink:before {
+    content: "";
+    display: block;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 25px solid #EBEBEB; 
+    position: absolute;
+    top: 42%;
+    right: 0px;
+} 
+
+.grey > .grey-text > p {
+    color: #6F6F6F;
+    font-size: 0.9rem;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    line-height: 0.8rem;  
+} 
+
+.ital {
+    color: #6F6F6F;
+    font-size: 0.8rem;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    line-height: 0.6rem;  
+    font-style: italic;
+}
+
+.pink-img {
+    padding: 20% 0 0 8%;
+    width: 85%;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.pink-img > img {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+
+.case-studies {
+max-width: 90%;
+margin-top: 5em;
+}
