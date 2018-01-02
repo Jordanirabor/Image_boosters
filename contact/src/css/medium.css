@@ -1,6 +1,6 @@
 .contact-heading {
     color: #6F6F6F;      
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -14,7 +14,7 @@ color: #6F6F6F;
 font-size: 1.3rem;
 font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
 line-height: 1.5rem;
-max-width: 80% !important;
+max-width: 90% !important;
 margin-bottom: 8em !important;
 }
 
@@ -26,7 +26,11 @@ margin-bottom: 8em !important;
 }
 
 .contact-row {
-    max-width: 75% !important;
+    max-width: 90% !important;
+}
+
+.forming > div > div {
+    margin-bottom: 1em;
 }
 
 input[type="text"], input[type="number"],.input {
@@ -41,12 +45,15 @@ textarea {
     border: none;
     outline: none;
     padding: 5px;
+    width: 500px;
+    height: 200px;
 }
 
-form {
+.forming {
     margin: 0;
     max-width: 100%;
     margin-bottom: 3em !important;
+    margin-top: 4em !important;
 }
 
 .diz {
