@@ -151,4 +151,5 @@ text-align: left;
 
 .case-studies {
     margin-top: 8em;
+    max-width: 80% !important;
 }
