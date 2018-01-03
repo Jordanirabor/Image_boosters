@@ -1,3 +1,14 @@
+.mobile-jumbotron {
+    height: 65%;
+    padding: 0.5em 0.5em;
+    background: url(../img/jumbotron.jpg) no-repeat; 
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 3em;
+}
+
 .casestudies-heading {
     color: #6F6F6F;        
     font-size: 1.2em;

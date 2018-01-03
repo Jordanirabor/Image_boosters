@@ -45,23 +45,29 @@
       });
 
       $(window).scroll(function(){
-        var bar = $('#bar'),
+        var bar = $('#bar')
+        var contacts = $('#contacts'),
             scroll = $(window).scrollTop();
       
         if (scroll >= 5) {
-            bar.addClass('car')
+            bar.addClass('car'),
+            contacts.addClass('contacts')
             $('#main_logo').css('display', 'none');
             $('#main_logos').css('display', 'block');
             $('.header > #bar > nav > ul > li > a').css('color', 'black');
+            contacts.css('color', 'white')
+            contacts.css('font-weight', 'bold')
         }
 
         else   {  
 
         bar.removeClass('car') 
+        contacts.removeClass('contacts') 
         bar.addClass('bar')
         $('#main_logos').css('display', 'none');
         $('#main_logo').css('display', 'block');
-        $('.header > #bar > nav > ul > li > a').css('color', 'white');        
+        $('.header > #bar > nav > ul > li > a').css('color', 'white'); 
+        contacts.css('font-weight', 'normal')       
 
         }
 

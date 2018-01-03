@@ -1,3 +1,15 @@
+.jumbotron {
+    height: 100%;
+    padding: 0.5em 3em;
+    background: url(../img/jumbotron.jpg) no-repeat; 
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+    margin-bottom: 3em;
+    font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
 .casestudies-heading {
     color: #6F6F6F;        
     font-size: 2em;

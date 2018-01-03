@@ -1,3 +1,14 @@
+.mobile-jumbotron {
+    height: 65%;
+    padding: 0.5em 3em;
+    background: url(../img/jumbotron.jpg) no-repeat; 
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 3em;
+}
+
 .holdp-reverse > p,.holdp > p, .holdop > p{
     color: #6F6F6F;
     font-size: 1.2rem;
@@ -24,7 +35,7 @@
 
 .holdimg > img {
     width: 100%;
-    height: inherit;
+    height: 30em;
 }
 
 .holdop {
@@ -51,7 +62,7 @@
 
 .holdimg-reverse {
     width: 100%;
-    height: 100%;
+    height: 30em;
     margin-right: 0 auto;
 }
 
@@ -141,6 +152,6 @@ hr {
 }
 
 .case-studies {
-max-width: 90%;
+max-width: 80% !important;
 margin-top: 5em;
 }

@@ -170,6 +170,13 @@
             transition: background 0.6s, border-bottom 0.6s ease-in-out;
         }
 
+        .contacts {
+            background: #B51E3F;
+            padding: 12px 13px 10px 10px!important;
+            color: white;
+            font-style: bold;
+        }
+
         .header > #overlay_text {
             font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
             width: 100%;
@@ -192,12 +199,15 @@
 
          
          .header > #overlay_text > h2 {
-            font-size: 4.5em;
+            font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-size: 3.3em;
             font-weight: bold;          
          }
 
          .header > #overlay_text > h4 {
-            font-size: 2em;              
+            font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-size: 3.3em;
+            font-weight: bold;              
          }
 
         #overlay {
