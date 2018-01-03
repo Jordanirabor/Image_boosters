@@ -199,7 +199,7 @@ html, body {
 }
 
  .header > #overlay_text > h2 {
-    font-size: 2em;
+    font-size: 1.3em;
     font-weight: bold;  
     overflow-x: hidden;
     overflow-y: hidden;
@@ -207,7 +207,7 @@ html, body {
  }
 
  .header > #overlay_text > h4 {
-    font-size: 2em;     
+    font-size: 1.3em;     
     font-weight: bold;    
     font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
  }
