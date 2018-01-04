@@ -170,6 +170,20 @@
             transition: background 0.6s, border-bottom 0.6s ease-in-out;
         }
 
+        .board {
+            overflow: hidden;
+        }
+
+            .board > img {
+                transition: all .5s ease-in-out; 
+            }
+
+            
+            .board > img:hover {
+                transform: scale(1.1); 
+            }
+
+
         .contacts {
             background: #B51E3F;
             padding: 12px 13px 10px 10px!important;

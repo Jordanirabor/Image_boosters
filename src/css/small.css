@@ -213,6 +213,20 @@ html, body {
     height: 100%;
 }
 
+.board {
+    overflow: hidden;
+}
+
+    .board > img {
+        transition: all .5s ease-in-out; 
+    }
+
+    
+    .board > img:hover {
+        transform: scale(1.1); 
+    }
+
+
 .mobile-jumbotron {
     height: 65%;
     padding: 0.5em 3em;

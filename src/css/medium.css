@@ -124,6 +124,20 @@
         transition: background 1s ease-in;
     }
 
+    .board {
+        overflow: hidden;
+    }
+
+        .board > img {
+            transition: all .5s ease-in-out; 
+        }
+
+        
+        .board > img:hover {
+            transform: scale(1.1); 
+        }
+
+
     .car{
         background: white;
         padding: 1.2em 0em 1.5em 0;    
