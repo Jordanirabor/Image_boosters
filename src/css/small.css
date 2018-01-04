@@ -230,7 +230,7 @@ html, body {
 .mobile-jumbotron {
     height: 65%;
     padding: 0.5em 3em;
-    background: url(../img/Jumbotron_image.jpg) no-repeat; 
+    background: url(../img/jumbotron.png) no-repeat; 
     background-position:center;
     background-size: cover;
     position: relative;
