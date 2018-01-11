@@ -160,7 +160,7 @@ html, body {
     }
 
 .address {
-padding : 2em;
+    padding : 3.5em 0;    
 }
 
 .learn {
@@ -558,6 +558,7 @@ font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", H
 .slick-slide img
 {
     display: block;
+    height: 25%;
 }
 .slick-slide.slick-loading img
 {
