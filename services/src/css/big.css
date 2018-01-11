@@ -165,3 +165,9 @@ text-align: left;
     margin-top: 8em;
     max-width: 80% !important;
 }
+
+.maps {
+max-width: 100%;
+margin: 0 auto;
+margin-bottom: 5em;
+}

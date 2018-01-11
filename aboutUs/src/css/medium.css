@@ -21,7 +21,7 @@
     text-align: justify;
 }
 
-.about-the-people-text {
+.about-the-people-textt {
 color: #6F6F6F;
 font-size: 1.3rem;
 font-family:  "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -93,6 +93,6 @@ font-size: 1em;
     float: right;
 }
 
-.footer {
+.search-div {
     margin-top: 15%;
 }
